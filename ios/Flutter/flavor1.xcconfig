@@ -1,0 +1,15 @@
+//
+//  flavor1.xcconfig
+//  Runner
+//
+//  Created by Kevin Munc on 2/21/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug-flavor1.xcconfig"
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main.dart
+
