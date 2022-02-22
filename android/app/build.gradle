@@ -57,6 +57,21 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    flavorDimensions "env"
+    productFlavors {
+
+        flavor1 {
+            dimension "env"
+            applicationId "com.example.can_we_integration_test_on_ios_with_flavors"
+        }
+
+        flavor2 {
+            dimension "env"
+            applicationId "com.example.can_we_integration_test_on_ios_with_flavors_flavor2"
+        }
+
+    }
 }
 
 flutter {
