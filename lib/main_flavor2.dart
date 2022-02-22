@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 // NOTE: main.dart will be used on Hot Restart unless `--target lib/main_flavor2.dart` is passed!
 //
 // Note, also, that in the absence of `--target``, the console will output "Launching lib/main.dart..." even when it is really this file.
+//
+// (Would also love to silence those "Mapping new ns ... to old ns ..." console warnings on Android.)
 // ****
 
 void main() {
